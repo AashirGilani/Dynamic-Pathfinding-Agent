@@ -3,13 +3,14 @@ A Pygame-based grid pathfinding visualiser that implements A* and Greedy Best-Fi
 
 ## Setup
 
+## Setup
 ```bash
+pip install -r requirements.txt
+# or
 pip install pygame
+
 python dynamic_pathfinder.py
 ```
-
----
-
 ## Features
 
 - **A\* Search** — optimal, uses `f(n) = g(n) + h(n)`
